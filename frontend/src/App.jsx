@@ -13,7 +13,7 @@ function App() {
             <ResponsiveAppBar />
 
             <Routes>
-                <Route path="/student" element={<HomeStudent Status="student" />} />
+                <Route path="/student" element={<HomeStudent Status="student" />}/>
                 <Route path="/tutor" element={<Hometutor Status="tutor" />} />
             </Routes>
         </div>
