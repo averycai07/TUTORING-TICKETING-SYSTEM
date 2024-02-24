@@ -97,7 +97,7 @@ export default function Queues({ Status }) {
                         : formatTimeLeft(timeLeft)}
                 </Typography>
             ) : (
-                <Box></Box>
+                <Box/>
             )}
 
             <TableContainer component={Paper}>
